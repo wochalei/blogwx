@@ -1,0 +1,45 @@
+.wrap{
+   display: flex;
+   width: 100%;
+   min-height:100vh ;
+   align-items: center;
+   flex-direction: column;
+   padding: 20rpx 0;
+}
+.logo{
+     position: relative;
+     width: 250rpx;
+     height: 250rpx;
+     
+     border-radius: 50%;
+}
+.logo::after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 250rpx;
+    height: 250rpx;
+    border-radius: 50%;
+    border: skyblue 10rpx solid;
+}
+image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name{
+    width: 100%;
+    text-align: center;
+    padding: 20rpx;
+    font-size: 40rpx;
+    font-weight: 600;
+}
+.say{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0  50rpx;
+    font-weight: 500;
+}

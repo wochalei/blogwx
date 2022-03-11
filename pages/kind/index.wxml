@@ -1,0 +1,4 @@
+<view class="container">
+     <kind type="{{type}}" bind:changeFlag="onChangeFlag"></kind>
+     <list list="{{typeList}}"></list>
+</view>

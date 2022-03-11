@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "kind":"../../components/kind/kind",
+    "list":"../../components/mainList/item"
+  },
+  "onReachBottomDistance":50
+}

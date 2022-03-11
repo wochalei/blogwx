@@ -1,0 +1,8 @@
+<scroll-view scroll-x class="wrap">
+        <view class="kind {{index==flag?'active':''}}"
+        wx:for="{{type}}"
+        wx:key="index"
+        bindtap="changeType"
+        data-index="{{index}}"
+        >{{item.type}}</view>
+    </scroll-view>

@@ -1,0 +1,5 @@
+<view class="wrap">
+  <view class="logo"><image src="{{user.img}}"></image></view>
+  <view class="name">{{user.name}}</view>
+  <view class="say">{{user.content_say}}</view>
+</view>

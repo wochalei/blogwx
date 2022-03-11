@@ -1,0 +1,5 @@
+<view class="wrap" >
+ <view>
+   <card wx:for="{{list}}" wx:key="index" item="{{item}}"></card>
+  </view>
+</view>

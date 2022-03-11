@@ -1,0 +1,19 @@
+
+
+    
+        <view class="item" wx:for="{{list}}" wx:key="index">
+            <navigator url='{{"/pages/card/index?blog_id="+item.blog_id}}'>
+            <view class="left">
+                <image src='{{item.coverImg}}'></image>
+            </view>
+            <view class="right">
+                <view class="title">{{item.title}}</view>
+                <view class="info">
+                    <text>王大帅</text>
+                    <text>{{item.created}}</text>
+                </view>
+            </view>     
+           </navigator>
+        </view>
+    
+

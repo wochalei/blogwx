@@ -1,0 +1,17 @@
+<navigator url='{{"/pages/card/index?blog_id="+item.blog_id}}'>
+<view class="card">
+   <view class="img">
+    <image src="{{item.coverImg}}" ></image>
+  </view>
+   <view class="title">
+     {{item.title}}
+   </view>
+   <view class="brief"> 
+    {{item.summary}}
+   </view>
+   <view class="info">
+    <text>{{item.type}}</text>
+    <text>{{item.created}}</text>
+   </view>
+</view>
+</navigator>
